@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+Sudoku.egg-info/PKG-INFO
+Sudoku.egg-info/SOURCES.txt
+Sudoku.egg-info/dependency_links.txt
+Sudoku.egg-info/top_level.txt
+sudoku/__init__.py
+sudoku/sudoku.py
+sudoku/test.py

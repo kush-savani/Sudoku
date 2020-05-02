@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: Sudoku
+Version: 1.0
+Summary: A Python package to create a pair of solve and unsolve sudoku.
+Home-page: https://github.com/kush-savani/Sudoku.git
+Author: Kaushal savani
+Author-email: kaushalsavani@gmail.com
+License: MIT
+Description: # Sudoku
+        
+        A Python package to create a pair of solve and unsolve sudoku.
+        
+        ## Usage
+        
+        import Sudoku 
+        
+        puzzle,solution = create('easy')
+        
+        display(puzzle) 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
