@@ -63,6 +63,7 @@ Output:
 ```python
 display(solution)
 ```
+Output
 ```python
 * -  -  -  | -  -  -  | -  -  -  *
 
