@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: sudoku-create
+Version: 0.1
+Summary: A Python package to create a pair of solve and unsolve sudoku.
+Home-page: https://github.com/kush-savani/Sudoku.git
+Author: Kaushal Savani
+Author-email: kaushalsavani@gmail.com
+License: MIT
+Description: 
+        A Python Package To Create A Pair Of Solve And Unsolve Sudoku.
+        
+        # Usage
+        Import Sudoku In You Code As
+        ```python
+        from sudoku import *
+        ```
+        There Are Two Method.
+        1. create()
+        2. display()
+        
+        ## 1. create()
+        Method `create()` Take **level** As A Input Parameter.
+        **level** Should As
+        * easy
+        * medium
+        * hard
+        * extreme
+        
+        And Return A Two Variable **Unsolve Sudoku** And **Solve Sudoku**
+        ```python
+        Puzzle, Solution = create('easy')
+        ```
+        Here **Puzzle** Is Unsolve Sudoku In Form Of Matrix. And **Solution** Is Solve Sudoku Of Puzzle.
+        
+        ## 2. display()
+        Method `display()` Take **Sudoku** As A Input Parameter. Which Chould Be Solve Or Unsolve.
+        
+        ```python
+        display(puzzle)
+        ```
+        ![Image of Yaktocat](https://drive.google.com/open?id=144uoHVccelCP82ci7dCzg3IY2bZxRn5e)
+        
+        
+        ```python
+        display(solution)
+        ```
+        ![Image of Yaktocat](https://drive.google.com/open?id=1TtzDXUeRNT3EOTaOUHysA71EO0_hyZuz)
+        
+        
+        **Source Code** [Github](https://github.com/kush-savani/Sudoku.git)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown

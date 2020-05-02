@@ -4,13 +4,13 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Sudoku",
-    version="1.0",
+    name="sudoku-create",
+    version="0.1",
     description="A Python package to create a pair of solve and unsolve sudoku.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/kush-savani/Sudoku.git",
-    author="Kaushal savani",
+    author="Kaushal Savani",
     author_email="kaushalsavani@gmail.com",
     license = "MIT",
     classifiers=[
@@ -21,5 +21,5 @@ setuptools.setup(
     
     include_package_data = True,
     packages=["sudoku"],
-    python_requires='>=3.5',
+    python_requires='>=3',
 ) 
