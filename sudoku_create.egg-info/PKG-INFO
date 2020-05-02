@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: sudoku-create
-Version: 0.1
+Version: 0.0
 Summary: A Python package to create a pair of solve and unsolve sudoku.
 Home-page: https://github.com/kush-savani/Sudoku.git
 Author: Kaushal Savani
@@ -38,13 +38,13 @@ Description:
         ```python
         display(puzzle)
         ```
-        ![Image of Yaktocat](https://drive.google.com/open?id=144uoHVccelCP82ci7dCzg3IY2bZxRn5e)
+        ![Image of Unsolve Sudoku](https://github.com/kush-savani/Sudoku/blob/master/puzzle.PNG)
         
         
         ```python
         display(solution)
         ```
-        ![Image of Yaktocat](https://drive.google.com/open?id=1TtzDXUeRNT3EOTaOUHysA71EO0_hyZuz)
+        ![Image of Solve Sudoku](https://github.com/kush-savani/Sudoku/blob/master/sol.PNG)
         
         
         **Source Code** [Github](https://github.com/kush-savani/Sudoku.git)

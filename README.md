@@ -30,13 +30,65 @@ Method `display()` Take **Sudoku** As A Input Parameter. Which Chould Be Solve O
 ```python
 display(puzzle)
 ```
-![Image of Yaktocat](https://drive.google.com/open?id=144uoHVccelCP82ci7dCzg3IY2bZxRn5e)
+Output:
+```python
+* -  -  -  | -  -  -  | -  -  -  *
+
+| 0  3  0  | 6  5  1  | 0  4  7  |
+
+| 6  0  1  | 2  4  0  | 9  3  0  |
+
+| 2  4  7  | 9  3  8  | 0  0  0  |
+
+| -  -  -  | -  -  -  | -  -  -  |
+
+| 0  9  3  | 0  6  0  | 1  2  4  |
+
+| 0  6  5  | 1  0  0  | 7  9  3  |
+
+| 1  2  4  | 0  9  3  | 0  0  5  |
+
+| -  -  -  | -  -  -  | -  -  -  |
+
+| 4  0  9  | 3  0  6  | 5  1  0  |
+
+| 0  8  6  | 0  1  2  | 4  0  9  |
+
+| 5  1  0  | 4  7  9  | 0  8  0  |
+
+* -  -  -  | -  -  -  | -  -  -  *
+```
 
 
 ```python
 display(solution)
 ```
-![Image of Yaktocat](https://drive.google.com/open?id=1TtzDXUeRNT3EOTaOUHysA71EO0_hyZuz)
+```python
+* -  -  -  | -  -  -  | -  -  -  *
 
+| 9  3  8  | 6  5  1  | 2  4  7  |
+
+| 6  5  1  | 2  4  7  | 9  3  8  |
+
+| 2  4  7  | 9  3  8  | 6  5  1  |
+
+| -  -  -  | -  -  -  | -  -  -  |
+
+| 7  9  3  | 8  6  5  | 1  2  4  |
+
+| 8  6  5  | 1  2  4  | 7  9  3  |
+
+| 1  2  4  | 7  9  3  | 8  6  5  |
+
+| -  -  -  | -  -  -  | -  -  -  |
+
+| 4  7  9  | 3  8  6  | 5  1  2  |
+
+| 3  8  6  | 5  1  2  | 4  7  9  |
+
+| 5  1  2  | 4  7  9  | 3  8  6  |
+
+* -  -  -  | -  -  -  | -  -  -  *
+```
 
 **Source Code** [Github](https://github.com/kush-savani/Sudoku.git)

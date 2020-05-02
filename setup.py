@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="sudoku-create",
-    version="0.1",
+    version="0.0",
     description="A Python package to create a pair of solve and unsolve sudoku.",
     long_description=long_description,
     long_description_content_type="text/markdown",
