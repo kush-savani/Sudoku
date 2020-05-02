@@ -26,9 +26,9 @@ Here **Puzzle** Is Unsolve Sudoku In Form Of Matrix. And **Solution** Is Solve S
 
 ## 2. display()
 Method `display()` Take **Sudoku** As A Input Parameter. Which Chould Be Solve Or Unsolve.
-
+Display **Puzzle**
 ```python
-display(puzzle)
+display(Puzzle)
 ```
 Output:
 ```python
@@ -59,9 +59,9 @@ Output:
 * -  -  -  | -  -  -  | -  -  -  *
 ```
 
-
+Display **Solution**
 ```python
-display(solution)
+display(Solution)
 ```
 Output
 ```python
